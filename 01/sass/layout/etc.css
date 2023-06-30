@@ -1,12 +1,61 @@
 .maintaence {
   z-index: 70;
+  max-width: 100%;
+  width: -moz-max-content;
+  width: max-content;
+  justify-content: center;
+  width: 100%;
+  gap: 16px;
+  justify-items: center;
   display: grid;
+  position: absolute;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(255, 255, 255);
+  min-height: 800px;
 }
-.maintaence .maintaence--img {
-  max-width: 300px;
-  height: auto;
+.maintaence p {
+  font-size: 32px;
+  padding-right: 3%;
+  font-weight: 500;
+}
+
+.maintaence-container {
+  display: grid;
   width: 100%;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.maintaence-container .maintaence--img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+}
+
+.maintaence-container1 {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.maintaence-container1 .maintaence--img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+}
+
+.maintaence--text1 {
+  width: 50%;
+  padding-top: 8%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  margin-bottom: 8%;
+}
+
+.maintaence--text {
+  width: 50%;
+  margin-right: 15%;
+  margin-top: 8%;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
 }/*# sourceMappingURL=etc.css.map */
