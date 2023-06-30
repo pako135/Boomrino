@@ -1,0 +1,15 @@
+.maintaence{
+z-index: 70;
+display: grid;
+grid-template-rows: 1fr 1fr;
+margin: 0 auto;
+background-color: rgb(224, 224, 224);
+
+.maintaence--img{
+    max-width: 300px;
+    height: auto;
+    width: 100%;
+
+}
+
+}
