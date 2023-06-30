@@ -34,7 +34,7 @@
   }
   .maintaence-container1 {
     display: grid;
-    width: 100%;
+    width: 84%;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
   }
@@ -47,7 +47,7 @@
     width: 50%;
     padding-top: 8%;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 0fr;
     margin-bottom: 8%;
   }
   .maintaence--text {
