@@ -1,4 +1,4 @@
-.btn {
+.btn1 {
   text-align: center;
   font-size: 17px;
   background: transparent;
@@ -10,14 +10,14 @@
   transition: 0.5s ease;
 }
 
-.btn a {
+.btn1 a {
   text-decoration: none;
   font-size: 32px;
   font-family: roya;
   color: black;
 }
 
-.btn::before {
+.btn1::before {
   content: "";
   position: absolute;
   left: 0;
@@ -28,16 +28,16 @@
   transition: 0.5s ease;
 }
 
-.btn:hover {
+.btn1:hover {
   color: #1e1e2b;
   transition-delay: 0.5s;
 }
 
-.btn:hover::before {
+.btn1:hover::before {
   width: 100%;
 }
 
-.btn::after {
+.btn1::after {
   content: "";
   position: absolute;
   left: 0;
@@ -49,7 +49,7 @@
   z-index: -1;
 }
 
-.btn:hover::after {
+.btn1:hover::after {
   height: 100%;
   transition-delay: 0.4s;
   color: aliceblue;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: roya;
-  src: url(/01/src/BRoya.ttf);
+  src: url(./BRoya.ttf);
 }
 html {
   font-size: 112.5%;
